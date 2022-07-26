@@ -101,7 +101,7 @@ body {
   font-size: 1.25rem;
 }
 
-/*===================MID==============*/
+/*===================BOTTOM==============*/
 .cta {
   background-image: url('../images/dark-comp.jpg');
   background-position: 50% 50%;
@@ -113,9 +113,7 @@ body {
 }
 
 .cta-text {
-  color: white;
   flex-basis: 50%;
-  text-shadow: 2px 2px 20px violet;
   padding: 2em 2em;
 }
 
@@ -124,6 +122,13 @@ body {
     flex-basis: 100%;
   }
 }
+
+.cta-text h3,
+p {
+  color: white;
+  text-shadow: 2px 2px 20px violet;
+}
+
 
 .cta-text h3 {
   font-size: 3rem;
