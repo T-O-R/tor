@@ -121,6 +121,14 @@ body {
   .cta-text {
     flex-basis: 100%;
   }
+
+  .cta-text h3 {
+    font-size: 2rem;
+  }
+
+  .cta-text p {
+    font-size: 1.3125rem;
+  }
 }
 
 .cta-text h3,
