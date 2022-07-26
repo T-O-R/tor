@@ -113,21 +113,17 @@ body {
 }
 
 .cta-text {
+  color: white;
   flex-basis: 50%;
+  text-shadow: 2px 2px 20px violet;
   padding: 2em 2em;
 }
 
 @media (max-width: 44em) {
   .cta-text {
     flex-basis: 100%;
+  }
 }
-
-address h3,
-p {
-  color: white;
-  text-shadow: 2px 2px 20px violet;
-}
-
 
 .cta-text h3 {
   font-size: 3rem;
