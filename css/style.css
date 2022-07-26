@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300;400;900&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Rokkitt', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url('../images/spidey-bg-4k.jpg');
+  background-color: rgba(238, 130, 238, .5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 15rem;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 30px #FF0000;
+}
+
+@media (max-width: 44em) {
+  .hero h1 {
+    font-size: 7rem;
+  }
+  .hero .block {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.hero p {
+  letter-spacing: 3px;
+  font-size: 3.2rem;
+  text-shadow: 2px 2px 30px #FF0000;
+}
+
+.pink {
+  color: pink;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+/*===================MID==============*/
+
+.hero-two {
+  background: linear-gradient(176deg, rgba(70,22,79,1) 27%, rgba(70,22,79,1) 84%);
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 44em) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.skill {
+  box-sizing: border-box;
+  color: #fff;
+  padding: 2em 2em;
+  text-align: center;
+  text-shadow: 2px 2px 20px pink;
+  width: 100%;
+}
+
+.skill h2 {
+  font-size: 2rem;
+}
+
+.skill p {
+  font-size: 1.25rem;
+}
+
+/*===================MID==============*/
+.cta {
+  background-image: url('../images/dark-comp.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10vh 10vw;
+  height: 70vh;
+}
+
+.cta-text {
+  flex-basis: 50%;
+  padding: 2em 2em;
+}
+
+@media (max-width: 44em) {
+  .cta-text {
+    flex-basis: 100%;
+}
+
+address h3,
+p {
+  color: white;
+  text-shadow: 2px 2px 20px violet;
+}
+
+
+.cta-text h3 {
+  font-size: 3rem;
+}
+
+.cta-text p {
+  font-size: 1.75rem;
+}
